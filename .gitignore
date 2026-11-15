@@ -1,0 +1,20 @@
+# Datos pesados: se regeneran con el ETL (python -m src.etl)
+data/raw/
+data/processed/
+data/bi/
+
+# Entornos y cachés de Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Power BI: archivo temporal de bloqueo
+~$*.pbix
+
+# Sistema operativo y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

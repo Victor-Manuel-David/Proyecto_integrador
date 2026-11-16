@@ -1,0 +1,7 @@
+modelo,mejores_parametros,RMSE_validacion_cruzada,MAE,RMSE,R2,WAPE_%,Sesgo_%
+Regresión lineal (Ridge),{'ridge__alpha': 1000},139.7781,66.2932,161.649,0.5404,56.2517,1.0305
+Random Forest,"{'n_estimators': 400, 'min_samples_leaf': 20, 'max_features': 0.3, 'max_depth': 12}",138.7823,65.2731,164.8478,0.522,55.386,-2.6363
+Gradient Boosting (HistGB),"{'min_samples_leaf': 50, 'max_leaf_nodes': 31, 'max_iter': 400, 'loss': 'squared_error', 'learning_rate': 0.03, 'l2_regularization': 0.1}",142.0109,67.3529,166.8277,0.5105,57.1509,0.5606
+Base: media 4 semanas,-,,68.9776,169.0267,0.4975,58.5294,-6.2735
+Árbol de decisión,"{'min_samples_leaf': 100, 'max_depth': 5}",144.7475,66.3895,170.8506,0.4866,56.3334,-6.4481
+Base: semana anterior,-,,81.0331,202.6571,0.2776,68.7588,-0.9987

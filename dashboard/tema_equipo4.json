@@ -1,0 +1,18 @@
+{
+  "name": "Equipo 4 - Tienda en linea",
+  "dataColors": ["#1F4E79", "#E07A1F", "#2E8B57", "#B23A48", "#6C5B7B", "#8C8C8C", "#5B9BD5", "#F2B880"],
+  "background": "#FFFFFF",
+  "foreground": "#1F2937",
+  "tableAccent": "#1F4E79",
+  "good": "#2E8B57",
+  "neutral": "#E07A1F",
+  "bad": "#B23A48",
+  "maximum": "#1F4E79",
+  "center": "#9DC3E6",
+  "minimum": "#F3F7FB",
+  "textClasses": {
+    "title": { "fontFace": "Segoe UI Semibold", "fontSize": 14, "color": "#1F2937" },
+    "label": { "fontFace": "Segoe UI", "fontSize": 10, "color": "#374151" },
+    "callout": { "fontFace": "Segoe UI Semibold", "fontSize": 26, "color": "#1F4E79" }
+  }
+}
